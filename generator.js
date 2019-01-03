@@ -8,7 +8,7 @@ let originalNumber = "1234567890";
 
 function getWords(original) {
     let words = "";
-    let times = Math.floor(Math.random() * 3) + 1;
+    let times = Math.floor(Math.random() * 4) + 1;
     for (let i = 0; i < times; i++) {
         words += original.charAt(Math.floor(Math.random() * original.length));
     }
